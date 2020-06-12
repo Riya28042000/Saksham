@@ -158,7 +158,7 @@ class _Register extends State<Register> {
                   Padding(
                       child: Container(
                         height: 50,
-                        width: 160,
+                        width: MediaQuery.of(context).size.width - 240,
                         child: GestureDetector(
                           onTap: () {
                             setState(() {
@@ -199,8 +199,8 @@ class _Register extends State<Register> {
                       padding: EdgeInsets.all(10)),
                   Padding(
                     child: Container(
-                       height: 50,
-                        width: 160,
+                      height: 50,
+                      width: MediaQuery.of(context).size.width - 240,
                       child: GestureDetector(
                         onTap: () {
                           setState(() {
@@ -365,8 +365,8 @@ class _Register extends State<Register> {
                 children: <Widget>[
                   Padding(
                       child: Container(
-                     height: 50,
-                        width: 160,
+                        height: 50,
+                        width: MediaQuery.of(context).size.width - 240,
                         child: GestureDetector(
                           onTap: () {
                             setState(() {
@@ -408,8 +408,8 @@ class _Register extends State<Register> {
                       padding: EdgeInsets.all(10)),
                   Padding(
                     child: Container(
-                          height: 50,
-                        width: 160,
+                      height: 50,
+                      width: MediaQuery.of(context).size.width - 240,
                       child: GestureDetector(
                         onTap: () {
                           setState(() {
@@ -457,7 +457,6 @@ class _Register extends State<Register> {
                       Transform(
                         transform: new Matrix4.identity()..scale(1.0),
                         child: ChoiceChip(
-                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20),bottomLeft: Radius.circular(20), topLeft: Radius.circular(20))),
                           selectedColor: Colors.grey,
                           avatar: CircleAvatar(
                               backgroundColor: Colors.black,
@@ -486,7 +485,6 @@ class _Register extends State<Register> {
                       Transform(
                         transform: new Matrix4.identity()..scale(1.0),
                         child: ChoiceChip(
-                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20),bottomLeft: Radius.circular(20), topLeft: Radius.circular(20))),
                           selectedColor: Colors.grey,
                           avatar: CircleAvatar(
                               backgroundColor: Colors.black,
@@ -515,7 +513,6 @@ class _Register extends State<Register> {
                       Transform(
                         transform: new Matrix4.identity()..scale(1.0),
                         child: ChoiceChip(
-                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20),bottomLeft: Radius.circular(20), topLeft: Radius.circular(20))),
                           selectedColor: Colors.grey,
                           selected: badminton,
                           onSelected: (bool val) {
@@ -550,7 +547,6 @@ class _Register extends State<Register> {
                       Transform(
                         transform: new Matrix4.identity()..scale(1.0),
                         child: ChoiceChip(
-                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20),bottomLeft: Radius.circular(20), topLeft: Radius.circular(20))),
                           selectedColor: Colors.grey,
                           selected: volleyBall,
                           onSelected: (bool val) {
@@ -579,7 +575,6 @@ class _Register extends State<Register> {
                       Transform(
                         transform: new Matrix4.identity()..scale(1.0),
                         child: ChoiceChip(
-                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20),bottomLeft: Radius.circular(20), topLeft: Radius.circular(20))),
                           selectedColor: Colors.grey,
                           selected: carrom,
                           onSelected: (bool val) {
@@ -608,7 +603,6 @@ class _Register extends State<Register> {
                       Transform(
                         transform: new Matrix4.identity()..scale(1.0),
                         child: ChoiceChip(
-                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20),bottomLeft: Radius.circular(20), topLeft: Radius.circular(20))),
                           selectedColor: Colors.grey,
                           selected: tt,
                           onSelected: (bool val) {
@@ -643,7 +637,6 @@ class _Register extends State<Register> {
                       Transform(
                         transform: new Matrix4.identity()..scale(1.0),
                         child: ChoiceChip(
-                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20),bottomLeft: Radius.circular(20), topLeft: Radius.circular(20))),
                           selectedColor: Colors.grey,
                           selected: basketBall,
                           onSelected: (bool val) {
@@ -672,7 +665,6 @@ class _Register extends State<Register> {
                       Transform(
                         transform: new Matrix4.identity()..scale(1.0),
                         child: ChoiceChip(
-                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20),bottomLeft: Radius.circular(20), topLeft: Radius.circular(20))),
                           selectedColor: Colors.grey,
                           selected: tugOfWar,
                           onSelected: (bool val) {
@@ -701,7 +693,6 @@ class _Register extends State<Register> {
                       Transform(
                         transform: new Matrix4.identity()..scale(1.0),
                         child: ChoiceChip(
-                          shape: RoundedRectangleBorder(borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20),bottomLeft: Radius.circular(20), topLeft: Radius.circular(20))),
                           selectedColor: Colors.grey,
                           selected: khokho,
                           onSelected: (bool val) {
@@ -740,7 +731,6 @@ class _Register extends State<Register> {
                           Transform(
                             transform: new Matrix4.identity()..scale(1.0),
                             child: ChoiceChip(
-                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20),bottomLeft: Radius.circular(20), topLeft: Radius.circular(20))),
                               selectedColor: Colors.grey,
                               selected: cricket,
                               onSelected: (bool val) {
@@ -771,7 +761,6 @@ class _Register extends State<Register> {
                           Transform(
                             transform: new Matrix4.identity()..scale(1.0),
                             child: ChoiceChip(
-                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20),bottomLeft: Radius.circular(20), topLeft: Radius.circular(20))),
                               selectedColor: Colors.grey,
                               selected: kabaddi,
                               onSelected: (bool val) {
@@ -801,7 +790,6 @@ class _Register extends State<Register> {
                           Transform(
                             transform: new Matrix4.identity()..scale(1.0),
                             child: ChoiceChip(
-                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20),bottomLeft: Radius.circular(20), topLeft: Radius.circular(20))),
                               selectedColor: Colors.grey,
                               selected: powerlift,
                               onSelected: (bool val) {
@@ -841,7 +829,6 @@ class _Register extends State<Register> {
                           Transform(
                             transform: new Matrix4.identity()..scale(1.0),
                             child: ChoiceChip(
-                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20),bottomLeft: Radius.circular(20), topLeft: Radius.circular(20))),
                               selectedColor: Colors.grey,
                               selected: football,
                               onSelected: (bool val) {
@@ -871,7 +858,6 @@ class _Register extends State<Register> {
                           Transform(
                             transform: new Matrix4.identity()..scale(1.0),
                             child: ChoiceChip(
-                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20),bottomLeft: Radius.circular(20), topLeft: Radius.circular(20))),
                               selectedColor: Colors.grey,
                               selected: pool,
                               onSelected: (bool val) {
@@ -901,7 +887,6 @@ class _Register extends State<Register> {
                           Transform(
                             transform: new Matrix4.identity()..scale(1.0),
                             child: ChoiceChip(
-                              shape: RoundedRectangleBorder(borderRadius: BorderRadius.only(topRight: Radius.circular(20),bottomRight: Radius.circular(20),bottomLeft: Radius.circular(20), topLeft: Radius.circular(20))),
                               selectedColor: Colors.grey,
                               selected: obstacle,
                               onSelected: (bool val) {
@@ -929,10 +914,11 @@ class _Register extends State<Register> {
                             ),
                           ),
                         ])),
+                        SizedBox(height:10),
             Padding(
                 child: Container(
-                       height: 50,
-                        width: 365,
+                  height:50,
+                  width: MediaQuery.of(context).size.width - 50,
                   child: GestureDetector(
                     onTap: () {
                       setState(() {});
@@ -968,7 +954,7 @@ class _Register extends State<Register> {
                   ),
                 ),
                 padding: EdgeInsets.all(10)),
-            SizedBox(height: 10)
+            SizedBox(height: 15)
           ],
         )),
       ),
