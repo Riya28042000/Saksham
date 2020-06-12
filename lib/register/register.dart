@@ -158,7 +158,7 @@ class _Register extends State<Register> {
                   Padding(
                       child: Container(
                         height: 50,
-                        width: MediaQuery.of(context).size.width - 240,
+                        width: 160,
                         child: GestureDetector(
                           onTap: () {
                             setState(() {
@@ -200,7 +200,7 @@ class _Register extends State<Register> {
                   Padding(
                     child: Container(
                       height: 50,
-                      width: MediaQuery.of(context).size.width - 240,
+                      width: 160,
                       child: GestureDetector(
                         onTap: () {
                           setState(() {
@@ -366,7 +366,7 @@ class _Register extends State<Register> {
                   Padding(
                       child: Container(
                         height: 50,
-                        width: MediaQuery.of(context).size.width - 240,
+                        width: 160,
                         child: GestureDetector(
                           onTap: () {
                             setState(() {
@@ -409,7 +409,7 @@ class _Register extends State<Register> {
                   Padding(
                     child: Container(
                       height: 50,
-                      width: MediaQuery.of(context).size.width - 240,
+                      width:160,
                       child: GestureDetector(
                         onTap: () {
                           setState(() {
@@ -918,7 +918,7 @@ class _Register extends State<Register> {
             Padding(
                 child: Container(
                   height:50,
-                  width: MediaQuery.of(context).size.width - 50,
+                  width: 365,
                   child: GestureDetector(
                     onTap: () {
                       setState(() {});
