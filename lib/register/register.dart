@@ -85,7 +85,7 @@ class _Register extends State<Register> {
                   borderRadius: BorderRadius.circular(20),
                 ),
                 child: AspectRatio(
-                  child: Image.asset('assets/saksham.jpeg', fit: BoxFit.fill),
+                  child: Image.asset('assets/saksham1.png', fit: BoxFit.fill),
                   aspectRatio: 8 / 7,
                 ),
               ),

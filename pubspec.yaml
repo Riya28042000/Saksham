@@ -23,6 +23,8 @@ dependencies:
   flutter_swiper:
   google_fonts:
   flip_card:
+  grafpix:
+  syncfusion_flutter_charts:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -63,7 +65,8 @@ flutter:
   - assets/tabletennis.jpeg
   - assets/tugofwar.jpeg
   - assets/volleyball.jpeg
-  - assets/saksham.jpeg
+  - assets/sakshamm.png
+  - assets/saksham1.png
   - assets/riya.jpeg
   #  - images/a_dot_ham.jpeg
 
