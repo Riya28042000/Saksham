@@ -1,16 +1,41 @@
-# saksham
+# Saksham
 
-A new Flutter project.
+Netra is a research project that brings together the power of the cloud and NETRA to deliver an intelligent app designed to help you navigate your day. Point your phone’s camera, select a channel, and see as well as hear a description of what the NETRA has recognized around you.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+# Features
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+- Update about what's happening in various sports domain
+- Give the Schedule of sports event
+- Vote for your favourite team
+- Register yourself for the event
+- Nice UI
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+
+# Dependencies
+
+- [Flutter](https://flutter.dev/?gclid=CjwKCAjw26H3BRB2EiwAy32zhY0Ab85XiyQXZRGIRKSUHRRgrZZccezpmqjx9tXay7UqpS2QqgjgwxoCFCYQAvD_BwE&gclsrc=aw.ds)
+- [curved_drawer]()
+- [flutter_swiper]()
+- [google_fonts]()
+- [flip_card]()
+
+
+
+# Snapshots
+
+
+
+
+
+# Getting Started
+
+- [Flutter Setup](https://flutter.dev/docs/get-started/install)
+- Clone Repository <br>
+    - $ git clone https://github.com/Riya28042000/Saksham.git<br>
+    - $ cd saksham/<br>
+    - flutter run<br>
+      
+      
