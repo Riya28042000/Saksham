@@ -1,6 +1,6 @@
 # Saksham
 
-Netra is a research project that brings together the power of the cloud and NETRA to deliver an intelligent app designed to help you navigate your day. Point your phone’s camera, select a channel, and see as well as hear a description of what the NETRA has recognized around you.
+College sports app to provide details about the various sports domain and for the the registeration of student participating in it.
 
 
 
@@ -17,10 +17,10 @@ Netra is a research project that brings together the power of the cloud and NETR
 # Dependencies
 
 - [Flutter](https://flutter.dev/?gclid=CjwKCAjw26H3BRB2EiwAy32zhY0Ab85XiyQXZRGIRKSUHRRgrZZccezpmqjx9tXay7UqpS2QqgjgwxoCFCYQAvD_BwE&gclsrc=aw.ds)
-- [curved_drawer]()
-- [flutter_swiper]()
-- [google_fonts]()
-- [flip_card]()
+- [curved_drawer](https://pub.dev/packages/curved_drawer#:~:text=89-,curved_drawer,easy%20to%20use%20animated%20drawer.)
+- [flutter_swiper](https://pub.dev/packages/flutter_swiper)
+- [google_fonts](https://pub.dev/packages/google_fonts)
+- [flip_card](https://pub.dev/packages/flip_card)
 
 
 
@@ -35,7 +35,7 @@ Netra is a research project that brings together the power of the cloud and NETR
 - [Flutter Setup](https://flutter.dev/docs/get-started/install)
 - Clone Repository <br>
     - $ git clone https://github.com/Riya28042000/Saksham.git<br>
-    - $ cd saksham/<br>
+    - $ cd Saksham/<br>
     - flutter run<br>
       
       
