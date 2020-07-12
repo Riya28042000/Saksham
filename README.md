@@ -26,7 +26,7 @@ College sports app to provide details about the various sports domain and for th
 
 # Snapshots
 
-
+![sak](https://user-images.githubusercontent.com/65823846/87246224-99d98100-c469-11ea-9d2f-8aa8439cf864.gif)
 
 
 
